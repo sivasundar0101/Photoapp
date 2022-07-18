@@ -30,7 +30,12 @@ html {
       font-size: 3em;
       margin-bottom: 15px;
   }
-  
+  .btn-text-left{
+	text-align: left;	
+}
+.btn-text-right{
+	text-align: right;
+}
   .search-input {
       width: 400px;
       height: 30px;
@@ -73,16 +78,15 @@ html {
   
   .search-results {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-gap: 20px;
+      grid-template-columns: auto auto ;
+      grid-gap: 5px;
       padding: 25px;
   }
   
   .result-item {
-      width: 250px;
-      height: 250px;
-      padding: 5px;
-      border-radius: 4px;
+      width: 500px;
+      height: 500px;
+     
   }
   
   .photographer-name {
