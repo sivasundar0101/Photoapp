@@ -31,10 +31,12 @@ html {
       margin-bottom: 15px;
   }
   .btn-text-left{
-	text-align: left;	
+	text-align: left;
+   
 }
 .btn-text-right{
 	text-align: right;
+   
 }
   .search-input {
       width: 400px;
@@ -45,12 +47,13 @@ html {
   }
   
   .btn {
-      width: 60px;
+      width: 30px;
       height: 30px;
       color: white;
       background: #ff0000;
       border: none;
   }
+
   
   button {
       cursor: pointer;
@@ -109,9 +112,11 @@ html {
   }
   
   .next-btn {
-      margin-left: 10px;
+      margin-left: 5px;
   }
-  
+  .prev-btn{
+    margin-right: 5px;
+  }
 
   
 
